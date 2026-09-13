@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Host
+Host: https://zenith-expeditions.com
+
+# Sitemaps
+Sitemap: https://zenith-expeditions.com/sitemap.xml

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;600;700;800;900&family=Great+Vibes&family=JetBrains+Mono:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&family=Pinyon+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-teal-default: #004E64;
+    --color-teal-shade: #003646;
+    --color-teal-dark: #00222C;
+    --color-mist-default: #E0E5E9;
+    --color-mist-pure: #F4F7F9;
+    --color-mist-muted: #8A9AA5;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  /* Bespoke Swiss Scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #00222C;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #004E64;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E0E5E9;
+  }
+}
+
+/* Guaranteed Font Classes */
+.font-cursive {
+  font-family: 'Alex Brush', 'Great Vibes', 'Pinyon Script', cursive !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  line-height: 1.15;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif !important;
+}
+
+.font-sans {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+@layer utilities {
+  .border-hairline-light {
+    border-width: 1px;
+    border-color: rgba(224, 229, 233, 0.18);
+  }
+
+  .border-hairline-dark {
+    border-width: 1px;
+    border-color: rgba(0, 78, 100, 0.2);
+  }
+
+  .bg-glass-dark {
+    background: rgba(0, 34, 44, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .bg-glass-light {
+    background: rgba(224, 229, 233, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .luxury-rule {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 78, 100, 0.2), transparent);
+  }
+
+  .luxury-rule-dark {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(224, 229, 233, 0.25), transparent);
+  }
+}
+

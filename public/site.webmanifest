@@ -1,0 +1,16 @@
+{
+  "name": "ZENITH // Mont Blanc Alpine Expeditions",
+  "short_name": "ZENITH",
+  "description": "Guided ascents of Mont Blanc (4,808m) with certified UIAGM mountain guides, safety gear, and classic Goûter route itineraries.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00222C",
+  "theme_color": "#004E64",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
