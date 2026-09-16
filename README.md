@@ -118,6 +118,5 @@ http://localhost:3000
 
 ## 🎥 Video
 
-*Add a screen recording of the hero flythrough here — the `tests/` folder already has a few reference screenshots (`screenshot_admin.png`, `screenshot_dates.png`) worth including too.*
 
 ---
